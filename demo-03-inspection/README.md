@@ -1,0 +1,1 @@
+- From terminal: `f3d --no-config ../assets/skull.vti`

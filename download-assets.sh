@@ -13,6 +13,7 @@ filenames=(
   "future_parking_2k.hdr"
   "hikers_cave_2k.hdr"
   "202.vtp"
+  "cluster_fly.spz"
 )
 
 mkdir -p assets

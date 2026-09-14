@@ -1,0 +1,12 @@
+{
+  "name": "f3d-examples-web",
+  "private": true,
+  "version": "0.0.0",
+  "workspaces": [
+    "gaussian-splatting",
+    "volume-rendering"
+  ],
+  "dependencies": {
+    "f3d": "^3.5.0-nightly.20260912"
+  }
+}

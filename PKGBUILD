@@ -71,5 +71,6 @@ package() {
   DESTDIR="$pkgdir" cmake --install build --component mimetypes
   DESTDIR="$pkgdir" cmake --install build --component sdk
   DESTDIR="$pkgdir" cmake --install build --component configuration
+  DESTDIR="$pkgdir" cmake --install build --component colormaps
   install -Dm0644 -t "$pkgdir/usr/share/licenses/$pkgname/" LICENSE.md
 }

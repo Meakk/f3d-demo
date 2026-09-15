@@ -7,6 +7,6 @@
     "volume-rendering"
   ],
   "dependencies": {
-    "f3d": "^3.5.0-nightly.20260912"
+    "f3d": "3.5.0-nightly.20260912"
   }
 }

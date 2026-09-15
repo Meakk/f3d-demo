@@ -170,7 +170,8 @@ f3d({})
       .setSize(scale * canvas.clientWidth, scale * canvas.clientHeight);
 
     // read file and display it
-    const response = await fetch(`https://f3d.app/data/skull.vti`);
+    const assetUrl = new URL("../../../assets/skull.vti", import.meta.url);
+    const response = await fetch(assetUrl);
     const arrayBuffer = await response.arrayBuffer();
     const scene = engine.getScene();
     try {

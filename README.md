@@ -20,6 +20,34 @@ sudo pacman -S npm scrcpy
 
 ## Preparation
 
+### Python
+
+Create a virtual environment to run Python demo:
+
+```sh
+python -m venv ./.venv
+```
+
+Source the virtual environment
+
+```sh
+. .venv/bin/activate
+```
+
+Or (if using fish):
+
+```sh
+. .venv/bin/activate.fish
+```
+
+Then install dependencies
+
+```sh
+pip install f3d
+```
+
+### Web
+
 Install npm dependencies required to run web demos:
 
 ```sh
